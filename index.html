@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sidhiya C S | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="particle-canvas"></canvas>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo"><span class="bracket">&lt;</span>Sidhiya<span class="bracket">/&gt;</span></div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-content glass">
+    <p class="eyebrow">// welcome_to_my_portfolio.py</p>
+    <h1>Hi, I'm <span class="highlight">Sidhiya C S</span></h1>
+    <h2 class="typing-wrap">
+      <span id="typing-text"></span><span class="cursor">|</span>
+    </h2>
+    <p class="hero-desc">
+      Second-year Integrated MSc Computer Science (AI &amp; ML) student at
+      Bharata Mata College, Thrikkakara — passionate about data, machine
+      learning, and building solutions that make an impact.
+    </p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Contact Me</a>
+    </div>
+    <div class="social-icons">
+      <a href="https://github.com/sidhiyacs000" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://linkedin.com/in/sidhiya-c-s-8559943b5" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:sidhiyacs000@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+
+  <div class="hero-photo-wrap">
+    <div class="orbit-ring ring-1"></div>
+    <div class="orbit-ring ring-2"></div>
+    <div class="hero-photo glass">
+      <img src="profile.jpg" alt="Sidhiya C S">
+    </div>
+    <span class="node-tag tag-1">AI</span>
+    <span class="node-tag tag-2">ML</span>
+    <span class="node-tag tag-3">Power BI</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2 class="section-title"><span class="tag-number">01.</span> About Me</h2>
+  <div class="about-grid">
+    <div class="about-card glass">
+      <p>
+        I'm Sidhiya C S, a second-year Integrated MSc Computer Science
+        student specializing in Artificial Intelligence and Machine Learning
+        at Bharata Mata College, Thrikkakara. I enjoy solving problems with
+        code and turning raw data into insights that actually mean something —
+        whether that's through a Python script or a Power BI dashboard.
+      </p>
+      <p>
+        I'm currently interning with IBM's Big Data and Business Management
+        program, building my understanding of data-driven decision making
+        alongside my coursework. Outside of academics, I compete in
+        Taekwondo and I'm always looking to pick up a new skill.
+      </p>
+    </div>
+    <div class="goal-card glass">
+      <i class="fa-solid fa-bullseye"></i>
+      <h3>Future Goals</h3>
+      <p>
+        To grow into a skilled Data Analyst / ML Engineer, sharpen my
+        expertise in AI-driven analytics, and contribute to real-world
+        projects that combine technical depth with practical business value.
+      </p>
+    </div>
+  </div>
+
+  <div class="info-row">
+    <div class="info-card glass">
+      <i class="fa-solid fa-language"></i>
+      <h3>Languages Known</h3>
+      <div class="skill-tags">
+        <span class="tag tag-cyan">English</span>
+        <span class="tag tag-gold">Malayalam</span>
+      </div>
+    </div>
+    <div class="info-card glass">
+      <i class="fa-solid fa-person-running"></i>
+      <h3>Sports</h3>
+      <p class="small-text">Active Taekwondo competitor — Silver Medalist at State Level, 2025.</p>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+  <h2 class="section-title"><span class="tag-number">02.</span> Education</h2>
+  <div class="timeline">
+    <div class="timeline-item glass">
+      <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+      <div class="timeline-content">
+        <h3>Integrated M.Sc. Computer Science (AI &amp; ML)</h3>
+        <p class="timeline-meta">Bharata Mata College, Thrikkakara &middot; 2nd Year (Ongoing)</p>
+        <p>Pursuing a 5-year integrated program with specialization in Artificial
+          Intelligence and Machine Learning, covering core computer science
+          fundamentals, mathematics, and applied AI.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2 class="section-title"><span class="tag-number">03.</span> Skills</h2>
+
+  <h3 class="sub-title">Technical Skills</h3>
+  <div class="skill-tags">
+    <span class="tag tag-cyan">Python</span>
+    <span class="tag tag-gold">C</span>
+    <span class="tag tag-coral">C++</span>
+    <span class="tag tag-purple">SQL</span>
+    <span class="tag tag-green">Power BI</span>
+    <span class="tag tag-cyan">VS Code</span>
+  </div>
+
+  <h3 class="sub-title">Soft Skills</h3>
+  <div class="skill-tags">
+    <span class="tag tag-gold">Problem-Solving</span>
+    <span class="tag tag-coral">Analytical Thinking</span>
+    <span class="tag tag-purple">Team Collaboration</span>
+    <span class="tag tag-cyan">Time Management</span>
+    <span class="tag tag-green">Communication</span>
+    <span class="tag tag-gold">Adaptability</span>
+  </div>
+
+  <h3 class="sub-title">Proficiency</h3>
+  <div class="progress-grid">
+    <div class="progress-item">
+      <div class="progress-label"><span>Python</span><span>80%</span></div>
+      <div class="progress-bar"><div class="progress-fill fill-cyan" data-width="80"></div></div>
+    </div>
+    <div class="progress-item">
+      <div class="progress-label"><span>C / C++</span><span>75%</span></div>
+      <div class="progress-bar"><div class="progress-fill fill-gold" data-width="75"></div></div>
+    </div>
+    <div class="progress-item">
+      <div class="progress-label"><span>SQL</span><span>70%</span></div>
+      <div class="progress-bar"><div class="progress-fill fill-purple" data-width="70"></div></div>
+    </div>
+    <div class="progress-item">
+      <div class="progress-label"><span>Power BI</span><span>85%</span></div>
+      <div class="progress-bar"><div class="progress-fill fill-green" data-width="85"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section">
+  <h2 class="section-title"><span class="tag-number">04.</span> Certifications &amp; Internship</h2>
+  <div class="cert-grid">
+
+    <div class="cert-card glass">
+      <div class="cert-icon"><i class="fa-solid fa-briefcase"></i></div>
+      <h3>Big Data &amp; Business Management Intern</h3>
+      <p class="cert-meta">IBM Online Internship &middot; 6 Weeks &middot; June 2026 &ndash; Present</p>
+      <p>Currently undergoing a structured virtual internship covering Big Data
+        concepts and business applications, including 6 live masterclasses led
+        by IBM professionals on data-driven decision making.</p>
+    </div>
+
+    <div class="cert-card glass">
+      <div class="cert-icon"><i class="fa-solid fa-chart-simple"></i></div>
+      <h3>Power BI Certification (30 Hours)</h3>
+      <p class="cert-meta">College Add-on Course &middot; Conducted by Cozmek Pvt Ltd</p>
+      <p>Built interactive dashboards including a Flipkart Sales Analysis
+        Dashboard and an HR Data Analysis Dashboard, translating raw data
+        into actionable visual insights.</p>
+    </div>
+
+    <div class="cert-card glass">
+      <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+      <h3>Power BI — Certificate of Completion</h3>
+      <p class="cert-meta">Certification</p>
+      <p>Completed a certification course covering data visualization and
+        analytics fundamentals using Microsoft Power BI.</p>
+    </div>
+
+    <div class="cert-card glass">
+      <div class="cert-icon"><i class="fa-solid fa-terminal"></i></div>
+      <h3>Beyond the Prompt: Mastering the Art of Context Engineering</h3>
+      <p class="cert-meta">One-Day Bootcamp &middot; Conducted by GDGC on Campus</p>
+      <p>Participated in a hands-on bootcamp exploring context engineering
+        techniques for working effectively with AI models.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2 class="section-title"><span class="tag-number">05.</span> Mini Projects</h2>
+  <div class="project-grid">
+
+    <div class="project-card glass">
+      <div class="project-img-wrap">
+        <img src="beyond-the-game.jpg" alt="Beyond The Game interface">
+      </div>
+      <div class="project-body">
+        <h3>Beyond The Game</h3>
+        <p class="cert-meta">Think Her Hack (GDGC Collaboration) &middot; 2025</p>
+        <p>A web platform prototype built during a 24-hour hackathon to support
+          injured athletes through physical recovery, mental wellness, and
+          career transition. Core modules include mood tracking, a peer
+          support community, mentor matching, and an AI-based alternative
+          career recommendation engine.</p>
+        <div class="project-tags">
+          <span class="tag tag-cyan small">JavaScript</span>
+          <span class="tag tag-gold small">Hackathon</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/sidhiyacs000/beyond-the-game" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card glass">
+      <div class="project-img-wrap">
+        <img src="flipkart-powerbi.jpg" alt="Flipkart Sales Analysis Dashboard">
+      </div>
+      <div class="project-body">
+        <h3>Flipkart Sales Analysis Dashboard</h3>
+        <p class="cert-meta">Power BI Add-on Course Project</p>
+        <p>An interactive dashboard visualizing total sales performance, monthly
+          trends, category-wise quantity sold, product-wise revenue, payment
+          methods, and customer ratings.</p>
+        <div class="project-tags">
+          <span class="tag tag-green small">Power BI</span>
+          <span class="tag tag-purple small">Data Analysis</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card glass">
+      <div class="project-img-wrap">
+        <img src="hr-powerbi.jpg" alt="HR Data Analysis Dashboard">
+      </div>
+      <div class="project-body">
+        <h3>HR Data Analysis Dashboard</h3>
+        <p class="cert-meta">Power BI Add-on Course Project</p>
+        <p>A dashboard translating workforce data into actionable visual
+          insights — covering salary distribution, gender breakdown,
+          department-wise headcount, and monthly salary trends.</p>
+        <div class="project-tags">
+          <span class="tag tag-green small">Power BI</span>
+          <span class="tag tag-coral small">HR Analytics</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="section">
+  <h2 class="section-title"><span class="tag-number">06.</span> Achievements &amp; Activities</h2>
+
+  <div class="achieve-grid">
+    <div class="achieve-card glass">
+      <i class="fa-solid fa-medal"></i>
+      <h3>Silver Medalist</h3>
+      <p>State-Level Taekwondo Championship, 2025</p>
+    </div>
+    <div class="achieve-card glass">
+      <i class="fa-solid fa-award"></i>
+      <h3>Runner-Up</h3>
+      <p>Taekwondo Match, Mahatma Gandhi University</p>
+    </div>
+    <div class="achieve-card glass">
+      <i class="fa-solid fa-people-group"></i>
+      <h3>GDGC Participant</h3>
+      <p>Active participant in Google Developer Group on Campus (GDGC) events</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2 class="section-title"><span class="tag-number">07.</span> Contact Me</h2>
+  <div class="contact-card glass">
+    <p>Feel free to reach out for collaborations, internships, or just to talk about data and AI.</p>
+    <div class="contact-details">
+      <div><i class="fa-solid fa-envelope"></i> sidhiyacs000@gmail.com</div>
+      <div><i class="fa-solid fa-phone"></i> +91 6238993343</div>
+      <div><i class="fa-solid fa-location-dot"></i> Ernakulam, Kerala</div>
+    </div>
+    <div class="social-icons">
+      <a href="https://github.com/sidhiyacs000" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://linkedin.com/in/sidhiya-c-s-8559943b5" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:sidhiyacs000@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Sidhiya C S. Built with curiosity and code.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
